@@ -243,3 +243,30 @@ header .menu{
         animation: pulse 3s ease infinite;
       }
 }
+
+
+
+
+@media  (max-width: 400px) {
+    .thumbnail{
+        justify-content: start;
+    }
+    .slider .list .item .content h2{
+        font-size: 60px;
+    }
+    .arrows{
+        top: 10%;
+    }
+    #videogallery{
+        margin-bottom:-150px;
+    }
+    
+
+   .slider .list .item  #video{
+        width:100%;
+        margin-top:-90%;
+        height:10%;
+
+    }
+    
+}
